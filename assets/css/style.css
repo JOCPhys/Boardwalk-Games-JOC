@@ -75,6 +75,26 @@ h2 {
 #fav-games .card {
 border: none;
 }
+
+/* footer / contact */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+
+}
+
+#contact h2 {
+    color: white;
+}
 /* grid visualisation CSS for testing */
 
 /* .container,
