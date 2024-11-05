@@ -64,6 +64,8 @@ h2 {
     background-color: var(--highlight-color);
     color: white;
 }
+
+
 /* Navbar */
 
 #navbar {
@@ -133,6 +135,13 @@ h2 {
 
 #contact .table-dark * {
     background-color: transparent;
+}
+
+#discount {
+    background-color: var(--highlight-color-light);
+    color: white;
+    padding: 5px;
+    margin-bottom: 2rem;
 }
 /* grid visualisation CSS for testing */
 
