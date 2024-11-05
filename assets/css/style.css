@@ -77,13 +77,13 @@ border: none;
 }
 
 /* footer / contact */
-#social-networks {
+/* #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
-}
+    list-style-type: none; } */
+
 
 #contact {
     background-color: var(--primary-color);
@@ -94,6 +94,26 @@ border: none;
 
 #contact h2 {
     color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
 }
 /* grid visualisation CSS for testing */
 
