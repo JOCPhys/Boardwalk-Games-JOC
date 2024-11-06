@@ -226,6 +226,55 @@
                 </div>
             </div>
         </section>
+        <section>
+             <!-- Booking inquiry form section -->
+        <section id="booking-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2>RESERVE A GAME</h2>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-4">
+                                <label for="name" class="form-label">Full name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-4">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-4">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+
+                            <div class="col-12 col-lg-8 mb-3">
+                                <label for="game-type" class="form-label">Select game</label>
+                                <select id="game-type" class="form-select" name="game-type" required>
+                                    <option value="" selected>Select game</option>
+                                    <option value="regular-play">Galaxy Pioneers</option>
+                                    <option value="dnd">Mystic Woods</option>
+                                    <option value="retro-night">Captain's Gambit</option>
+                                    <option value="tournament">Critter Quest</option>
+                                    <option value="kids-party">Setters of Catan</option>
+                                    <option value="retro-night">Monopoly</option>
+                                    <option value="tournament">Exploding Kittens</option>
+                                    <option value="kids-party">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="date" class="form-label">Requested date</label>
+                                <input id="date" class="form-select" name="date" type="date" required>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 text-center">
+                        <a href="booking.html" class="btn custom-button-outline mb-4">Submit</a>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </section>
     </main>
 
     <!-- footer / contact section -->
